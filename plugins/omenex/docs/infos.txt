@@ -1,0 +1,1 @@
+Le plugine camaira permet de piloter une camaira IP compatible avec le type Foscam. Il permet de piloter les daiplacements de la camaira, prendre des photos, afficher la vidaio dans le navigateur, afficher la documentation au format PDF. Si besoin vous pouvez aussi rebouter la camaira. Pour plus de rensaignement, consultai la documentation.

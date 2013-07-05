@@ -1,0 +1,42 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="ruleOmenex" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="ruleOmenex" scope="public">
+    <example>Sarah reset la camaira</example>
+    <tag>out.action=new Object(); </tag>
+    <item>Sarah</item>
+	
+     <one-of>
+	  	<item>affiche la camaira <tag>out.action.commande="affiche";</tag></item>
+	  	<item>Reboute la camaira <tag>out.action.commande="reboot";</tag></item>
+	  	<item>Redemarre la camaira <tag>out.action.commande="reboot";</tag></item>
+	  	<item>Rezette la camaira <tag>out.action.commande="reboot";</tag></item>
+	  	<item>Initialize la camaira <tag>out.action.commande="reboot";</tag></item>
+	  	<item>camaira prends une photo <tag>out.action.commande="snapshot";</tag></item>			
+	  	<item>prends une photo avec la camaira<tag>out.action.commande="snapshot";</tag></item>
+	  	<item>affiche la doc de la camaira<tag>out.action.commande="doc";</tag></item>
+	  	<item>affiche la documentation de la camaira<tag>out.action.commande="doc";</tag></item>
+	  	<item>comment fonctionne le plugine camaira<tag>out.action.commande="info";</tag></item>
+	  	<item>comment marche le plugine camaira<tag>out.action.commande="info";</tag></item>
+	  	<item>infos sur le plugine camaira<tag>out.action.commande="info";</tag></item>	
+	  	<item>camaira en position un <tag>out.action.commande="31";</tag></item>
+		<item>camaira en position une <tag>out.action.commande="31";</tag></item>
+		<item>camaira en position deux <tag>out.action.commande="33";</tag></item>
+		<item>camaira en position trois <tag>out.action.commande="35";</tag></item>
+		<item>camaira en position quatre <tag>out.action.commande="37";</tag></item>
+		<item>camaira en position cinq <tag>out.action.commande="39";</tag></item>
+		<item>camaira en position six <tag>out.action.commande="41";</tag></item>
+		<item>camaira en position sept <tag>out.action.commande="43";</tag></item>
+		<item>camaira en position huit <tag>out.action.commande="45";</tag></item>
+		<item>camaira en position neuf <tag>out.action.commande="47";</tag></item>
+		<item>camaira en position dix <tag>out.action.commande="51";</tag></item>
+		<item>camaira en position onze <tag>out.action.commande="53";</tag></item>
+		<item>camaira en position douze <tag>out.action.commande="55";</tag></item>
+		<item>camaira en position treize <tag>out.action.commande="57";</tag></item>
+		<item>camaira en position quatorze <tag>out.action.commande="61";</tag></item>
+		<item>camaira en position quinze <tag>out.action.commande="63";</tag></item>
+		<item>camaira en position seize <tag>out.action.commande="65";</tag></item>		
+    </one-of> 
+	
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/omenex";</tag>
+  </rule>
+</grammar>
+             

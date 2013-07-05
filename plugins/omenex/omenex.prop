@@ -1,0 +1,12 @@
+{
+  "modules" : { 
+    "omenex"  : {
+      "description": "Pilote une Camera IP compatible Foscam.",
+      "version" : "0.1",
+	  "IP_Camera" : "[FIXME]",
+	  "Port_Camera" : "[FIXME]",
+	  "Utilisateur" : "[FIXME]",
+	  "Mot_de_passe" : "[FIXME]"
+    }
+  }
+}
